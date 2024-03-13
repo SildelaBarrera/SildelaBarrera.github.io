@@ -30,6 +30,7 @@ body{
     justify-content: space-around;
     align-items: center;
     position: fixed;
+    
 }
 .anclas{
     height:40%;
@@ -39,11 +40,20 @@ body{
     font-size: large;
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;   
+    justify-content: space-evenly;  
+    
+}
+.anclas p{
+    margin:10px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    font-size: large;
+    
 }
 .anclas a:hover{
     color:var(--gris);
 }
+
 .nombre{
     height: 50%;
     width: 100%;
@@ -140,6 +150,7 @@ body{
     background-color: rgb(241, 235, 235);
     text-align: center;
     margin-top:30px;
+    padding: 10px;
     display:flex;
     flex-direction: column;
     justify-content: center;
@@ -231,33 +242,46 @@ body{
     font-weight: bold;
 }
 .contacto{
-        height: 500px;
+        height: 650px;
         width: 100%;
         display:flex;
         flex-direction: column;
-        justify-content: space-around;
+        justify-content: flex-end;
         align-items: center; 
         row-gap: 30px; 
         background-color: var(--blancoazul); 
 }       
-.textoCont{
-    height: 40%;
-    width: 35%;
+
+form{
+    height: 60%;
     display:flex;
-    flex-direction: column;
-    justify-content: space-around;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: var(--blancogris);
-    border: 4px groove var(--negro);
-    padding:20px;
-    background-color: var(--blancogris);
-    border: 4px groove var(--negro);
-    margin-left: 265px; 
-    color:var(--negro);
+    flex-direction: column; 
+    justify-content:flex-end;   
+    align-items: center;
+    row-gap: 15px;
+    
 }
-.links:hover{
-    color: var(--verdegris);
+form input{
+    height: 30px;
+    width: 400px;
+    background-color:var(--verdesuave);     
 }
+#mensaje{
+    height: 65px;
+    width: 400px;
+       
+}
+button{
+    width: 170px;
+    height: 50px;
+    padding: 5px;
+    background-color: var(--verdegris);
+    border: 1px solid grey;
+    border-radius: 8px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(217, 226, 200);
+}
+
 .fotoFin{
     height: 30%;
     width: 70%;
